@@ -21,9 +21,14 @@
 	list-style: none; 
 }
 
-.miniaturas >li>img{
+.miniaturas >li>a>img{
 	border-width: 1px;
 	border-color: grey;
 	border-style: double;
 	margin-bottom: 1%;
+}
+
+.miniaturas >li>a>img:hover{
+	border-color: #FFBF00;
+	box-shadow: 1px 1px 1px #FFBF00, 0 0 5px #FFBF00, 0 0 5px #FFBF00;
 }
