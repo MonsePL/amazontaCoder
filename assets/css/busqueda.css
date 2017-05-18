@@ -1,11 +1,4 @@
-header{
-  padding: 3em;
-  background-color: #aaa;
-}
-.busqueda{
-  padding-top: 2em;
-  background-color: #eee;
-}
+
 .listaSinVin{
   text-decoration: none;
   list-style: none;
@@ -18,7 +11,7 @@ dl li dt{
 label input.checkbox{
   font-size: 2em;
 }
-.ofertas:hover , .price:hover {
+.ofertas:hover , .price:hover{
   color:#ed991c;
   text-decoration: none;
 }
@@ -65,4 +58,18 @@ footer dt{
 }
 footer a.botonzote:hover, .botonEnorme:hover{
   color: white;
+}
+.paises .breadcrumb {
+  background-color: #232f3e;
+
+}
+.enlacesBlancos{
+  color: #fff ;
+}
+.enlacesBlancos:hover{
+  color: lightblue;
+}
+.derechos{
+  background-color: #000;
+
 }
