@@ -1,4 +1,4 @@
-header,footer{
+header{
   padding: 3em;
   background-color: #aaa;
 }
@@ -34,4 +34,35 @@ a:hover{
 }
 a{
   text-decoration: none;
+}
+footer{
+  background-color: #232f3e;
+}
+footer dl {
+  padding-left: 2em;
+}
+footer a dd{
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+footer a dd:hover{
+  color:#ed991c;
+}
+footer dt{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.info{
+  padding-top: 5em;
+  padding-bottom: 5em
+}
+.botonEnorme{
+  background-color: #232f3e;
+  font-size: 1.5em;
+}
+footer a.botonzote:hover, .botonEnorme:hover{
+  color: white;
 }
