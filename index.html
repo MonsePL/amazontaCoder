@@ -4,14 +4,67 @@
     <meta charset="utf-8">
     <title>taCoders</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Aqui van a ir sus css -->
+    <link rel="stylesheet" href="assets/css/barraNavegacion.css">
   </head>
   <body>
+    <header class="barraNavegacion">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2">
+          <a href="http://placehold.it"><img src="assets/img/amazon.gif"></a>
+        </div>
+         <div class="col-md-7 margenTop">
+           <div class="input-group">
+             <div class="input-group-btn">
+               <button type="button" class="btn btn-default dropdown-toggle busqueda" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ropa,Zapatos y Accesorios<span class="caret"></span></button>
+               <ul class="dropdown-menu">
+                 <li><a href="#"></a></li>
+                 <li><a href="#">Todos los departamentos</a></li>
+                 <li><a href="#">Auto</a></li>
+                 <li><a href="#">Bebe</a></li>
+                 <li><a href="#">Electronicos</a></li>
+                 <li><a href="#">Peliculas y Series de TV</a></li>
+               </ul>
+             </div><!-- /btn-group -->
+              <input type="text" class="form-control" aria-describedby="basic-addon2">
+             <!-- <input type="text" class="form-control" aria-label="..."> -->
+            <span class="glyphicon glyphicon-search input-group-addon icono" aria-hidden="true"></span>
+
+         </div>
+         </div>
+         <div class="col-md-3 margenTop">
+          <img class="play" src="assets/img/play.gif" style="height: 20px;"><h5 style="display:inline-block;"> Prime video | Empieza tu prueba gratis</h5>
+         </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <div class="btn-group">
+            <button class="btn btn-default btn-md dropdown-toggle boton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Todos los<br><strong>Departamentos</strong><span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+               <li><a href="#">Libros</a></li>
+               <li><a href="#">Peliculas, Series de TV</a></li>
+               <li><a href="#">E-readers y eBooks Kindle</a></li>
+               <li><a href="#">Electrónicos</a></li>
+               <li><a href="#">Computo y tablets</a></li>
+            </ul>
+          </div>
+        </div>
+         <div class="col-md-8">Aqui va la barra de busqueda</div>
+         <div class="col-md-2">Premium</div>
+      </div>
+      </div>
+
+    </div>
+    </header>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>
