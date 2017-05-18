@@ -1,0 +1,29 @@
+.nav-none {
+	background-color: #FAFAFA;
+}
+
+.nav-none > ul> li {
+	list-style: none;
+	padding-right: 2%;
+}
+
+.nav-none > ul > li > a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+
+.black-style{
+	font-weight: bold;
+}
+
+.miniaturas >li{
+	list-style: none; 
+}
+
+.miniaturas >li>img{
+	border-width: 1px;
+	border-color: grey;
+	border-style: double;
+	margin-bottom: 1%;
+}
