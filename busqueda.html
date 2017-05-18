@@ -7,14 +7,91 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/busqueda.css">
     <link rel="icon" href="assets/img/Limav-Flat-Gradient-Social-Amazon.ico">
+    <link rel="stylesheet" href="assets/css/barraNavegacion.css">
+
 
     <!-- Aqui van a ir sus css -->
   </head>
   <body>
+
+    <header class="barraNavegacion row">
     <div class="container-fluid">
-      <header class="header row" id="header">
-        <label>hola</label>
-      </header>
+      <div class="row">
+        <div class="col-md-2">
+          <a href="http://placehold.it"><img src="assets/img/amazon.gif"></a>
+        </div>
+         <div class="col-md-6 margenTop">
+           <div class="input-group">
+             <div class="input-group-btn">
+               <button type="button" class="btn btn-default dropdown-toggle busqueda" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ropa,Zapatos y Accesorios<span class="caret"></span></button>
+               <ul class="dropdown-menu">
+                 <li><a href="#"></a></li>
+                 <li><a href="#">Todos los departamentos</a></li>
+                 <li><a href="#">Auto</a></li>
+                 <li><a href="#">Bebe</a></li>
+                 <li><a href="#">Electronicos</a></li>
+                 <li><a href="#">Peliculas y Series de TV</a></li>
+               </ul>
+             </div><!-- /btn-group -->
+              <input type="text" class="form-control" aria-describedby="basic-addon2">
+             <!-- <input type="text" class="form-control" aria-label="..."> -->
+            <span class="glyphicon glyphicon-search input-group-addon icono" aria-hidden="true"></span>
+
+         </div>
+         </div>
+         <div class="col-md-4 margenTop">
+          <img class="play" src="assets/img/play.gif" style="height: 20px;"><h5 style="display:inline-block;"> Prime video | Empieza tu prueba gratis</h5>
+         </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <div class="btn-group">
+            <button class="btn btn-default btn-md dropdown-toggle boton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Todos los<br><strong>Departamentos</strong><span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+               <li><a href="#">Libros</a></li>
+               <li><a href="#">Peliculas, Series de TV</a></li>
+               <li><a href="#">E-readers y eBooks Kindle</a></li>
+               <li><a href="#">Electrónicos</a></li>
+               <li><a href="#">Computo y tablets</a></li>
+            </ul>
+          </div>
+        </div>
+         <div class="col-md-6">
+           <ul class="nav nav-pills">
+
+              <li role="presentation"><a href="#">Mi amazon.com.mx</a></li>
+              <li role="presentation"><a href="#">Promociones</a></li>
+              <li role="presentation"><a href="#">Vender</a></li>
+              <li role="presentation"><a href="#">Ayuda</a></li>
+            </ul>
+         </div>
+         <div class="col-md-4">
+           <div class="btn-group">
+             <button class="btn btn-default btn-md dropdown-toggle boton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Hola, identificate<br><strong>Mi cuenta</strong><span class="caret"></span>
+             </button>
+             <button class="btn btn-default btn-md dropdown-toggle boton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Prueba<br><strong>Premium</strong><span class="caret"></span>
+             </button>
+             <button class="btn btn-default btn-md dropdown-toggle boton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Wish<br><strong>List</strong><span class="caret"></span>
+             </button>
+
+
+             <button class="btn btn-default btn-md btn" type="button"  style="background-color: inherit; border:none ">
+              <img src="assets/img/carrito.gif" alt="">
+             </button>
+           </div>
+         </div>
+      </div>
+      </div>
+
+    </div>
+    </header>
+    <div class="container-fluid">
       <section class="panel busqueda row">
         <article class="col-md-3 seccionFiltro">
             <nav class="nav-pills panel nav-stacked">
@@ -379,11 +456,6 @@
         </div>
 
       </footer>
-
-
-
-
-
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
