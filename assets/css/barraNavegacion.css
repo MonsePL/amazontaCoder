@@ -8,3 +8,24 @@
 .busqueda{
   background-color: #dadada;
 }
+.icono{
+  background-color: #f3a847;
+}
+.mycontent-left {
+  border-right: 1px dashed white;
+}
+.play img{
+  height: 20px;
+}
+.boton{
+  background-color: #232f3e;
+  color: white;
+  border: none;
+  text-align: left;
+}
+.boton:hover{
+  background-color: #232f3e;
+  color: white;
+  border: none;
+  text-align: left;
+}
