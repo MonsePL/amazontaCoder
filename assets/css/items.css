@@ -25,10 +25,57 @@
 	border-width: 1px;
 	border-color: grey;
 	border-style: double;
-	margin-bottom: 1%;
+	margin-bottom: 4%;
 }
 
 .miniaturas >li>a>img:hover{
 	border-color: #FFBF00;
 	box-shadow: 1px 1px 1px #FFBF00, 0 0 5px #FFBF00, 0 0 5px #FFBF00;
 }
+
+.small-greyTxt {
+	font-size: 11px;
+	color: grey;
+}
+
+.img-ppal>img {
+	margin-top: 20%;
+}
+
+.top-none {
+	margin-top: 0;
+}
+
+.top-space>a>img{
+	margin-top: 2%;
+}
+
+.size-txt {
+	font-size: 12px;
+}
+
+.align-left{
+	text-align: left;
+	padding-left: 2%;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.overline {
+	text-decoration: line-through;
+}
+
+.red-txt {
+	color: #C22B2B;
+	font-size: 13px;
+}
+
+.succes {
+	color: green;
+	font-size: 15px;
+}
+
+
+
