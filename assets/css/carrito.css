@@ -1,0 +1,37 @@
+header, footer{
+  background-color: black;
+  color:white;
+}
+
+.color-precio {
+  color: red;
+}
+
+.color-verde-texto {
+  color:#51B525;
+}
+
+.tipo-negrita {
+  font-weight: bold;
+}
+
+.imagen-ancho {
+  width: 110%;
+}
+
+.btn-aside-texto {
+  color: black;
+}
+.btn-menu-calcular {
+  border:none;
+  background-color: inherit;
+}
+
+.division-horizontal {
+  height: 100px;
+  margin-bottom: -18px;
+  background: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+  background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+  z-index: 0;
+  zoom: 1;
+}
