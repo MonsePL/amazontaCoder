@@ -71,5 +71,7 @@ footer a.botonzote:hover, .botonEnorme:hover{
 }
 .derechos{
   background-color: #000;
-
+}
+.imagenBusqueda{
+  width: 80%;
 }
