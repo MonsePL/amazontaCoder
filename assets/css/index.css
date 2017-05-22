@@ -1,0 +1,70 @@
+.margen {
+  margin: 0;
+  padding: 0;
+}
+
+/* area de footer*/
+
+.enlaces{
+  color: #fff ;
+}
+.enlaces:hover{
+  color: lightblue;
+}
+.derecho{
+  background-color: #000;
+}
+ .pais .bread {
+  background-color: #232f3e;
+}
+footer{
+  background-color: #232f3e;
+}
+footer dl {
+  padding-left: 2em;
+}
+footer a dd{
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+footer a dd:hover{
+  color:#ed991c;
+}
+footer dt{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.info{
+  padding-top: 5em;
+  padding-bottom: 5em
+}
+.botonE{
+  background-color: #232f3e;
+  font-size: 1.5em;
+}
+footer a.botonz:hover, .botonE:hover{
+  color: white;
+}
+a:hover{
+  color: #000;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+
+.blanco{
+  background-color: white;
+}
+.colorGo {
+  background-color: #708090;
+}
+
+.margenC {
+
+  padding-bottom: 3%;
+  margin: 0;
+}
