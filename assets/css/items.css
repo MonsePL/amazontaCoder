@@ -95,6 +95,13 @@
     margin-bottom: 0;
     
 }
+.titulosSmall{
+   color: black; 
+   font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 0;
+    font-size: 1vw;  
+}
 .linea{
     
     margin-top: 0.5em;
@@ -122,6 +129,10 @@
     font-size: .8vw;
     
 }
+.textoXSmall{
+    font-size:.7vw;
+    color:grey;
+}
 .scala{
     width: 20%;
     height: auto;
@@ -147,4 +158,8 @@
 .imagenes{
     display: flex;
     justify-content: space-around;
+}
+.marginfooter{
+    margin-top: 10% !important;
+    margin-left: 5% 
 }
